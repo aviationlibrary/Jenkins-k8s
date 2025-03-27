@@ -17,7 +17,7 @@ spec:
     spec: 
       containers: 
       - name: devweb 
-        image: localhost:8082/devweb 
+        image: devweb:latest
         ports: 
         - containerPort: 8090
 
